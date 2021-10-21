@@ -1,0 +1,125 @@
+.benefits {
+    background: #F7F7F7;
+    padding-top: 80px;
+}
+
+
+.benefits-title {
+    position: relative;
+    font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 28px;
+/* identical to box height, or 78% */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #320B61;
+padding: 0;
+margin: 0;
+}
+
+.benefits-circle {
+    position: absolute;
+background-image: url(../../images/benef-circle.png);
+width: 155px;
+height: 149px;
+top: -60px;
+left: 75%;
+}
+
+
+.benefits-border {
+    display: block;
+    width: 70px;
+    border-bottom: 2px solid #E130E3;
+    // border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 30px;
+  margin-bottom: 30px;
+
+
+    // @media screen and(min-width: $tablet) {
+    //   margin-top: 38px;
+    // }
+    // @media screen and(min-width: $desktop) {
+    //   margin-top: 24px;
+    // }
+  }
+
+
+
+
+.benefits-title--text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    
+    color: rgba(0, 0, 0, 0.8);
+    padding-bottom: 60px;
+}
+
+.benefits-block__wraper {
+    display: flex;
+}
+
+.benefits-block {
+width: 256px;
+height: 116px;
+// background-color: #E130E3;
+}
+
+
+.benefits-block__arow {
+    position: absolute;
+    // background-image: url(../../images/block1.png);
+    width: 60px;
+    height: 155px;
+    top: -18px;
+    right: 170px;
+    z-index: 1;
+}
+.arow1 {
+    position: absolute;
+    background-image: url(../../images/block1.png);
+    
+}
+.arow2 {
+    background-image: url(../../images/block2.png);
+}
+.arow3 {
+    background-image: url(../../images/block3.png);
+}
+.arow4 {
+    background-image: url(../../images/block4.png);
+}
+
+
+.block1 {
+    background-color: #312D48;
+position: relative;   
+z-index: 5; 
+
+}
+.block2 {
+    background-color: #4E3D71;
+    position: relative;
+    z-index: 4;
+}
+.block3 {
+    background-color: #8E67C0;
+    position: relative;
+    z-index: 3;
+}
+.block4 {
+    background-color: #B967C0; 
+    position: relative;
+    z-index: 2;
+}
+.block5 {
+    background-color: #ED867A;
+    position: relative;
+}

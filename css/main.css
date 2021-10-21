@@ -848,6 +848,10 @@ p {
   padding-bottom: 45px;
 }
 
+.marafon__last-child {
+  padding-bottom: 90px;
+}
+
 .marafon-program__title {
   font-family: 'Gilroy-Bold';
   font-style: normal;
@@ -1012,5 +1016,251 @@ p {
   background: #42196D;
   top: 15px;
   left: 0;
+}
+
+.solution {
+  background: #42196D;
+  padding-top: 82px;
+  padding-bottom: 94px;
+}
+
+.solution-title {
+  font-family: 'Gilroy-Bold';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  color: #FAD264;
+}
+
+@media screen and (max-width: 355px) {
+  .solution-title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .solution-title {
+    font-size: 36px;
+    line-height: 44px;
+  }
+}
+
+.solution-border {
+  display: block;
+  width: 70px;
+  border-bottom: 2px solid #fff;
+  margin: 0 auto;
+  margin-top: 26px;
+  margin-bottom: 23px;
+}
+
+@media screen and (min-width: 768px) {
+  .solution-border {
+    margin-top: 38px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .solution-border {
+    margin-top: 36px;
+    margin-bottom: 63px;
+  }
+}
+
+.solution-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.solution-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.solution-block__text {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: #fff;
+  color: #292841;
+  height: 246px;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  padding: 33px 0 24px 0;
+}
+
+.solution-block__img-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  padding-top: 22px;
+}
+
+.solution-block__img-text-bold {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.solution-block__arrow {
+  position: absolute;
+  background-image: url(../../images/arrow.png);
+  width: 48px;
+  height: 30px;
+  bottom: -15px;
+  left: calc(100% / 2 - 24px);
+}
+
+.solution-block__list--style {
+  text-align: start;
+  padding-top: 38px;
+}
+
+.solution-block__list--decoration {
+  position: relative;
+  padding-top: 16px;
+  padding-left: 46px;
+}
+
+.solution-block__png {
+  position: absolute;
+  background-image: url(../../images/solut-check.png);
+  width: 32px;
+  height: 30px;
+  top: 15px;
+  left: 0;
+}
+
+.benefits {
+  background: #F7F7F7;
+  padding-top: 80px;
+}
+
+.benefits-title {
+  position: relative;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 28px;
+  /* identical to box height, or 78% */
+  text-align: center;
+  text-transform: uppercase;
+  color: #320B61;
+  padding: 0;
+  margin: 0;
+}
+
+.benefits-circle {
+  position: absolute;
+  background-image: url(../../images/benef-circle.png);
+  width: 155px;
+  height: 149px;
+  top: -60px;
+  left: 75%;
+}
+
+.benefits-border {
+  display: block;
+  width: 70px;
+  border-bottom: 2px solid #E130E3;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.benefits-title--text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+  padding-bottom: 60px;
+}
+
+.benefits-block__wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.benefits-block {
+  width: 256px;
+  height: 116px;
+}
+
+.benefits-block__arow {
+  position: absolute;
+  width: 60px;
+  height: 155px;
+  top: -18px;
+  right: 170px;
+  z-index: 1;
+}
+
+.arow1 {
+  position: absolute;
+  background-image: url(../../images/block1.png);
+}
+
+.arow2 {
+  background-image: url(../../images/block2.png);
+}
+
+.arow3 {
+  background-image: url(../../images/block3.png);
+}
+
+.arow4 {
+  background-image: url(../../images/block4.png);
+}
+
+.block1 {
+  background-color: #312D48;
+  position: relative;
+  z-index: 5;
+}
+
+.block2 {
+  background-color: #4E3D71;
+  position: relative;
+  z-index: 4;
+}
+
+.block3 {
+  background-color: #8E67C0;
+  position: relative;
+  z-index: 3;
+}
+
+.block4 {
+  background-color: #B967C0;
+  position: relative;
+  z-index: 2;
+}
+
+.block5 {
+  background-color: #ED867A;
+  position: relative;
 }
 /*# sourceMappingURL=main.css.map */
