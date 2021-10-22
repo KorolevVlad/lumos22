@@ -1,6 +1,6 @@
 body {
   font-family: 'Gilroy-Regular';
-  color: $basic-text-color;
+  color: $primary-white-color;
 
   font-style: normal;
   font-weight: 400;
@@ -9,6 +9,10 @@ body {
   text-align: center;
   // letter-spacing: 0.03em;
   margin: 0;
+
+  @media screen and(max-width: 319px) {
+    overflow-x: scroll;
+  }
 }
 
 ul {
@@ -23,25 +27,12 @@ img {
   height: auto;
 }
 
-// .visually-hidden {
-//   position: absolute;
-//   width: 1px;
-//   height: 1px;
-//   margin: -1px;
-//   border: 0;
-//   padding: 0;
-
-//   white-space: nowrap;
-//   clip-path: inset(100%);
-//   clip: rect(0 0 0 0);
-//   overflow: hidden;
-// }
 
 .container {
   max-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid red;
+  // outline: 1px solid red;
   margin: 0 auto;
 
   @media screen and(min-width: $mobile) {

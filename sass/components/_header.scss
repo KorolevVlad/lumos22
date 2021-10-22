@@ -9,7 +9,6 @@
   background-position: center;
   background-size: cover;
   text-align: center;
-  //   padding-top: 118px;
   padding-bottom: 0px;
 
   @media screen and(min-width: $tablet) {
@@ -34,9 +33,8 @@
   display: block;
   align-items: center;
   padding-top: 36px;
-  color: $basic-text-color;
+  color: $primary-white-color;
 
-  //   max-width: 320px;
   @media screen and(min-width: $desktop) {
     padding-top: 25px;
   }
@@ -52,13 +50,8 @@
   }
 
   &__title {
-    // max-width: 320px;
-
-    // font-family: Gilroy;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     text-align: center;
 
     margin: 0;
@@ -67,7 +60,7 @@
 
     @media screen and(min-width: 768px) {
       font-size: 18px;
-      line-height: 26px;
+      line-height: 1.44;
     }
     @media screen and(min-width: $desktop) {
       max-width: 837px;
@@ -88,16 +81,15 @@
 }
 
 .container-header__mouse {
+  position: absolute;
+  background-image: url(../../images/mouse.png);
+  width: 50px;
+  height: 50px;
+  bottom: -25px;
+  left: 50%;
   @media screen and(min-width: $desktop) {
-    position: absolute;
-    background-image: url(../../images/mouse.png);
-    width: 50px;
-    height: 50px;
-    bottom: -25px;
-    left: 50%;
   }
 }
-
 
 .container-header__logo--desk {
   @media screen and(min-width: $desktop) {
@@ -109,8 +101,7 @@
 
 .container-header__title--secondary {
   font-family: 'Gilroy-Bold';
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 30px;
   line-height: 1.2;
   text-align: center;
@@ -124,12 +115,11 @@
   @media screen and(min-width: $tablet) {
     padding-top: 47px;
     font-size: 36px;
-    line-height: 44px;
+    line-height: 1.22;
   }
   @media screen and(min-width: $desktop) {
-    // padding-top: 47px;
     font-size: 50px;
-    line-height: 60px;
+    line-height: 1.2;
   }
 }
 
@@ -140,15 +130,11 @@
 
 .container-header__text--yellow {
   margin-right: 5px;
-  // @media screen and(min-width: $mobile) {
-  //   margin-right: 5px;
-  // }
 }
 .container-header__border {
   display: block;
   width: 70px;
-  border-bottom: 2px solid #fad264;
-  // border-collapse: collapse;
+  border-bottom: 2px solid $light-yellow-color;
   margin: 0 auto;
   margin-top: 26px;
 
@@ -161,11 +147,8 @@
 }
 
 .container-header__title--third {
-  // font-family: Gilroy;
-  font-style: normal;
-  font-weight: normal;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 1.17;
   text-align: center;
   margin: 0;
   padding-top: 26px;
@@ -178,10 +161,9 @@
 }
 .container-header__title--uppercase {
   font-family: 'Gilroy-Bold';
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 24px;
-  line-height: 29.02px;
+  line-height: 1.2;
   text-align: center;
   text-transform: uppercase;
 }
@@ -205,8 +187,6 @@
   display: flex;
   text-align: center;
   align-items: center;
-  /* display: block; */
-  /* margin: auto; */
 
   max-width: 320px;
   height: 118px;
@@ -217,21 +197,16 @@
   );
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
-  color: #000;
+  color: $black-color;
 
-  //   font-family: Gilroy;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
 
   margin-top: 50px;
   padding-left: 20px;
   padding-right: 20px;
 
   @media screen and(min-width: $tablet) {
-    // display: flex;
-    // justify-content: space-around;
     width: 270px;
     height: 145px;
     margin-top: 72px;
@@ -240,7 +215,6 @@
   @media screen and(min-width: $desktop) {
     margin-top: 41px;
     max-width: 245px;
-    
   }
 
   &:first-child {
@@ -270,8 +244,6 @@
 .container-header__star {
   background-image: url(../../images/star.png);
   position: absolute;
-  //   top: -22px;
-  //   left: 138px;
   width: 44px;
   height: 44px;
 
@@ -291,8 +263,6 @@
     left: -64px;
   }
   @media screen and(min-width: $tablet) {
-    // position: absolute;
-    // background-image: url(../../images/circle.png);
     width: 135px;
     height: 135px;
     bottom: -118px;
@@ -327,10 +297,6 @@
   background-image: url(../../images/calendar.png);
   width: 32px;
   height: 36px;
-  //   @media screen and(max-width:366px) {
-  //     width: 28px;
-  //     height: 32px;
-  //   }
 
   @media screen and(min-width: $tablet) {
     background-image: url(../../images/calendar-tablet.png);
@@ -341,11 +307,9 @@
 }
 
 .container-header__text {
-  // font-family: Gilroy;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 1.2;
 
   max-width: 288px;
   margin: 0;
@@ -359,15 +323,15 @@
   }
   @media screen and(min-width: $desktop) {
     font-size: 20px;
-  line-height: 24px;
+    line-height: 1.2;
   }
 }
 .container-header__text--block {
   @media screen and(min-width: $tablet) {
     font-size: 18px;
-line-height: 21px;
-padding: 0;
-margin: 0;
+    line-height: 1.17;
+    padding: 0;
+    margin: 0;
   }
 }
 
@@ -385,23 +349,19 @@ margin: 0;
 
 .header-form__mail,
 .header-form__button {
-  //   width: 269px;
   border: none;
   width: calc(100% - 2 * 25px);
   height: 56px;
   text-align: center;
 
-  background: #ffffff;
+  background: $primary-white-color;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
 
   margin: 0 auto;
 
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
-  line-height: 21px;
-  //   color: #000;
+  line-height: 1.17;
 
   @media screen and(min-width: $tablet) {
     width: 270px;
@@ -415,26 +375,21 @@ margin: 0;
     padding: 0;
   }
 }
-
 
 .header-form__button {
-  //   width: 269px;
   border: none;
   width: calc(100% - 2 * 25px);
   height: 56px;
   text-align: center;
 
-  background: #ffffff;
+  background: $primary-white-color;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
 
   margin: 0 auto;
 
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
-  line-height: 21px;
-  //   color: #000;
+  line-height: 1.17;
 
   @media screen and(min-width: $tablet) {
     width: 270px;
@@ -449,17 +404,8 @@ margin: 0;
   }
 }
 
-
-
-// .header-form__mail {
-//   @media screen and(min-width: $tablet) {
-//     width: 270px;
-//     height: 56px;
-//   }
-// }
-
 ::placeholder {
-  color: #000;
+  color: $black-color;
   margin: 0;
 }
 
@@ -474,61 +420,41 @@ margin: 0;
 }
 
 .header-form__button--desk {
-@media screen and(min-width: $desktop) {
-  width: 254px;
-  height: 56px;
-  padding: 0;
+  @media screen and(min-width: $desktop) {
+    width: 254px;
+    height: 56px;
+    padding: 0;
 
-  border: none;
-  // width: calc(100% - 2 * 25px);
-  // height: 56px;
-  text-align: center;
+    border: none;
+    text-align: center;
 
-  background: #ffffff;
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
-  border-radius: 30px;
+    background: $primary-white-color;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
 
-  margin: 0 auto;
+    margin: 0 auto;
 
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 21px;
+    font-size: 18px;
+    line-height: 1.17;
 
-  background: linear-gradient(75.93deg, #fad264 44.82%, #fce558 70.67%);
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
-  border-radius: 30px;
+    background: linear-gradient(75.93deg, #fad264 44.82%, #fce558 70.67%);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+  }
+  @media screen and(max-width: 1200px) {
+    display: none;
+  }
 }
-@media screen and(max-width: 1200px) {
-  display: none;
-}
-}
-
-// placeholder {
-//   // font-family: Gilroy;
-//   font-style: normal;
-//   font-weight: normal;
-//   font-size: 18px;
-//   line-height: 21px;
-//   // display: flex;
-//   // align-items: center;
-//   // text-align: center;
-//   color: #000;
-// }
 
 .header-form__agree {
-  // font-family: Gilroy;
   padding-top: 8px;
   margin: 0;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
+  line-height: 1.7;
 
   text-align: center;
 
-  color: #ffffff;
+  color: $primary-white-color;
 
   @media screen and(min-width: $tablet) {
     padding-top: 26px;
@@ -543,7 +469,6 @@ margin: 0;
   padding-bottom: 64px;
 
   @media screen and(min-width: $tablet) {
-    // justify-content: center;
     width: 509px;
     margin: 0 auto;
   }
@@ -562,23 +487,19 @@ margin: 0;
 }
 
 .header-form__feedback--text {
-  // font-family: Gilroy;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
 
-  color: #ffffff;
+  color: $primary-white-color;
   max-width: 246px;
   margin: 0;
 
   @media screen and(max-width:355px) {
-    // font-size: 10px;
     max-width: 215px;
   }
   @media screen and(min-width: $tablet) {
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     display: contents;
   }
 }

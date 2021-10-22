@@ -1,4 +1,5 @@
 @import './base/fonts';
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Mulish&display=swap');
 @import '../sass/utils/variables';
 @import '../sass/utils/breakpoints';
 @import '../sass/base/base-style';
@@ -8,3 +9,5 @@
 @import "./components/benefits";
 @import "./components/changes";
 @import "./components/author";
+@import "./components/appeal";
+@import "./components/footer";
