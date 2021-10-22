@@ -1,5 +1,5 @@
 .benefits {
-    background: #F7F7F7;
+    background-color: #F7F7F7;
     padding-top: 80px;
 }
 
@@ -73,7 +73,7 @@ height: 116px;
 }
 
 
-.benefits-block__arow {
+.benefits-block__arrow {
     position: absolute;
     // background-image: url(../../images/block1.png);
     width: 60px;
@@ -82,21 +82,66 @@ height: 116px;
     right: 170px;
     z-index: 1;
 }
-.arow1 {
+.arrow1 {
     position: absolute;
     background-image: url(../../images/block1.png);
     
 }
-.arow2 {
+.arrow2 {
     background-image: url(../../images/block2.png);
 }
-.arow3 {
+.arrow3 {
     background-image: url(../../images/block3.png);
 }
-.arow4 {
+.arrow4 {
     background-image: url(../../images/block4.png);
 }
 
+.list-group-numbered1 {
+    position: absolute; 
+    background-image: url(../../images/1.png);
+    width: 69px;
+    height: 67px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-5px, -33px);
+}
+.list-group-numbered2 {
+    position: absolute; 
+    background-image: url(../../images/2.png);
+    width: 69px;
+    height: 67px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-5px, -33px);
+}
+.list-group-numbered3 {
+    position: absolute; 
+    background-image: url(../../images/3.png);
+    width: 69px;
+    height: 67px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-35px, -33px);
+}
+.list-group-numbered4 {
+    position: absolute; 
+    background-image: url(../../images/4.png);
+    width: 69px;
+    height: 67px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-5px, -33px);
+}
+.list-group-numbered5 {
+    position: absolute; 
+    background-image: url(../../images/5.png);
+    width: 69px;
+    height: 67px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20px, -33px);
+}
 
 .block1 {
     background-color: #312D48;
@@ -122,4 +167,27 @@ z-index: 5;
 .block5 {
     background-color: #ED867A;
     position: relative;
+}
+
+.benefits-block__text {
+    display: flex;
+    text-align: left;
+
+    font-family: Mulish;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+
+
+color: #060606;
+
+gap: 20px;
+padding-bottom: 80px;
+}
+
+.benefits-block__text--decor {
+    padding-top: 20px;
+    width: 256px;
 }
