@@ -169,6 +169,12 @@
   }
 }
 
+.appeal-block__input:hover,
+.appeal-block__input:focus {
+  cursor: pointer;
+  box-shadow: 0px 10px 40px rgba(255, 223, 135, 0.50);
+}
+
 .appeal-block__button {
   padding-top: 10px;
   padding-bottom: 26px;
@@ -186,6 +192,13 @@
 .appeal-block__input--button {
   background: #f7c847;
   box-shadow: 0px 10px 40px rgba(255, 223, 135, 0.5);
+}
+
+.appeal-block__input--button:hover,
+.appeal-block__input--button:focus {
+  cursor: pointer;
+  box-shadow: 10px 13px 11px rgba(255, 0, 0, 0.1), 10px 11px 12px rgba(255, 0, 0, 0.08),
+  10px 12px 12px rgba(255, 0, 0, 0.12);
 }
 
 .appeal-block__agree {

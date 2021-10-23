@@ -667,6 +667,17 @@ p {
   }
 }
 
+.header-form__mail:hover,
+.header-form__mail:focus,
+.header-form__button:hover,
+.header-form__button:focus,
+.header-form__button--desk:hover,
+.header-form__button--desk:focus {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 10px 40px rgba(255, 223, 135, 0.5);
+          box-shadow: 0px 10px 40px rgba(255, 223, 135, 0.5);
+}
+
 .header-form__button {
   border: none;
   width: calc(100% - 2 * 25px);
@@ -1646,6 +1657,13 @@ p {
   }
 }
 
+.change-block__button:hover,
+.change-block__button:focus {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 10px 40px rgba(255, 223, 135, 0.5);
+          box-shadow: 0px 10px 40px rgba(255, 223, 135, 0.5);
+}
+
 .author {
   background-color: #f6f6f6;
   padding-top: 20px;
@@ -1941,6 +1959,13 @@ p {
   }
 }
 
+.appeal-block__input:hover,
+.appeal-block__input:focus {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 10px 40px rgba(255, 223, 135, 0.5);
+          box-shadow: 0px 10px 40px rgba(255, 223, 135, 0.5);
+}
+
 .appeal-block__button {
   padding-top: 10px;
   padding-bottom: 26px;
@@ -1956,6 +1981,13 @@ p {
   background: #f7c847;
   -webkit-box-shadow: 0px 10px 40px rgba(255, 223, 135, 0.5);
           box-shadow: 0px 10px 40px rgba(255, 223, 135, 0.5);
+}
+
+.appeal-block__input--button:hover,
+.appeal-block__input--button:focus {
+  cursor: pointer;
+  -webkit-box-shadow: 10px 13px 11px rgba(255, 0, 0, 0.1), 10px 11px 12px rgba(255, 0, 0, 0.08), 10px 12px 12px rgba(255, 0, 0, 0.12);
+          box-shadow: 10px 13px 11px rgba(255, 0, 0, 0.1), 10px 11px 12px rgba(255, 0, 0, 0.08), 10px 12px 12px rgba(255, 0, 0, 0.12);
 }
 
 .appeal-block__agree {
