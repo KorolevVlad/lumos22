@@ -87,8 +87,8 @@
   height: 50px;
   bottom: -25px;
   left: 50%;
-  @media screen and(min-width: $desktop) {
-  }
+  transform: translateX(-15px);
+  
 }
 
 .container-header__logo--desk {

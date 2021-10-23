@@ -300,6 +300,8 @@ p {
   height: 50px;
   bottom: -25px;
   left: 50%;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
 }
 
 @media screen and (min-width: 1200px) {
