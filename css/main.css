@@ -203,8 +203,8 @@ p {
 }
 
 .header {
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(66, 25, 109, 0.8)), to(rgba(66, 25, 109, 0.8))), url(../../images/bg-mobile.jpg);
-  background-image: linear-gradient(to right, rgba(66, 25, 109, 0.8), rgba(66, 25, 109, 0.8)), url(../../images/bg-mobile.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(66, 25, 109, 0.8)), to(rgba(66, 25, 109, 0.8))), url(../images/bg-mobile.jpg);
+  background-image: linear-gradient(to right, rgba(66, 25, 109, 0.8), rgba(66, 25, 109, 0.8)), url(../images/bg-mobile.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -214,15 +214,15 @@ p {
 
 @media screen and (min-width: 768px) {
   .header {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(66, 25, 109, 0.8)), to(rgba(66, 25, 109, 0.8))), url(../../images/bg-tablet.jpg);
-    background-image: linear-gradient(to right, rgba(66, 25, 109, 0.8), rgba(66, 25, 109, 0.8)), url(../../images/bg-tablet.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(66, 25, 109, 0.8)), to(rgba(66, 25, 109, 0.8))), url(../images/bg-tablet.jpg);
+    background-image: linear-gradient(to right, rgba(66, 25, 109, 0.8), rgba(66, 25, 109, 0.8)), url(../images/bg-tablet.jpg);
   }
 }
 
 @media screen and (min-width: 768px) {
   .header {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(50, 11, 97, 0.8)), to(rgba(50, 11, 97, 0.8))), url(../../images/bg-desk.jpg);
-    background-image: linear-gradient(to right, rgba(50, 11, 97, 0.8), rgba(50, 11, 97, 0.8)), url(../../images/bg-desk.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(50, 11, 97, 0.8)), to(rgba(50, 11, 97, 0.8))), url(../images/bg-desk.jpg);
+    background-image: linear-gradient(to right, rgba(50, 11, 97, 0.8), rgba(50, 11, 97, 0.8)), url(../images/bg-desk.jpg);
   }
 }
 
@@ -295,7 +295,7 @@ p {
 
 .container-header__mouse {
   position: absolute;
-  background-image: url(../../images/mouse.png);
+  background-image: url(../images/mouse.png);
   width: 50px;
   height: 50px;
   bottom: -25px;
@@ -492,7 +492,7 @@ p {
 }
 
 .container-header__star {
-  background-image: url(../../images/star.png);
+  background-image: url(../images/star.png);
   position: absolute;
   width: 44px;
   height: 44px;
@@ -505,7 +505,7 @@ p {
 @media screen and (min-width: 768px) {
   .container-header__circle {
     position: absolute;
-    background-image: url(../../images/circle.png);
+    background-image: url(../images/circle.png);
     width: 135px;
     height: 135px;
     bottom: -118px;
@@ -525,7 +525,7 @@ p {
 @media screen and (min-width: 1200px) {
   .container-header__circle--second {
     position: absolute;
-    background-image: url(../../images/circle2.png);
+    background-image: url(../images/circle2.png);
     width: 157px;
     height: 171px;
     bottom: -330px;
@@ -561,14 +561,14 @@ p {
 }
 
 .container-header__png {
-  background-image: url(../../images/calendar.png);
+  background-image: url(../images/calendar.png);
   width: 32px;
   height: 36px;
 }
 
 @media screen and (min-width: 768px) {
   .container-header__png {
-    background-image: url(../../images/calendar-tablet.png);
+    background-image: url(../images/calendar-tablet.png);
     width: 27px;
     height: 30px;
     margin-right: 18px;
@@ -804,7 +804,7 @@ p {
 }
 
 .header-form__feedback--png {
-  background-image: url(../../images/feedback.png);
+  background-image: url(../images/feedback.png);
   width: 58px;
   height: 54px;
 }
@@ -1038,7 +1038,7 @@ p {
 
 .marafon-program__png {
   position: absolute;
-  background-image: url(../../images/marafon-check.png);
+  background-image: url(../images/marafon-check.png);
   width: 30px;
   height: 30px;
   top: 15px;
@@ -1197,7 +1197,7 @@ p {
 
 .solution-block__arrow {
   position: absolute;
-  background-image: url(../../images/arrow.png);
+  background-image: url(../images/arrow.png);
   width: 48px;
   height: 30px;
   bottom: -15px;
@@ -1227,7 +1227,7 @@ p {
 
 .solution-block__png {
   position: absolute;
-  background-image: url(../../images/solut-check.png);
+  background-image: url(../images/solut-check.png);
   width: 32px;
   height: 30px;
   top: 15px;
@@ -1259,7 +1259,7 @@ p {
 
 .benefits-circle {
   position: absolute;
-  background-image: url(../../images/benef-circle.png);
+  background-image: url(../images/benef-circle.png);
   width: 155px;
   height: 149px;
   top: -60px;
@@ -1331,24 +1331,24 @@ p {
 
 .arrow1 {
   position: absolute;
-  background-image: url(../../images/block1.png);
+  background-image: url(../images/block1.png);
 }
 
 .arrow2 {
-  background-image: url(../../images/block2.png);
+  background-image: url(../images/block2.png);
 }
 
 .arrow3 {
-  background-image: url(../../images/block3.png);
+  background-image: url(../images/block3.png);
 }
 
 .arrow4 {
-  background-image: url(../../images/block4.png);
+  background-image: url(../images/block4.png);
 }
 
 .list-group-numbered1 {
   position: absolute;
-  background-image: url(../../images/1.png);
+  background-image: url(../images/1.png);
   width: 69px;
   height: 67px;
   top: 50%;
@@ -1359,7 +1359,7 @@ p {
 
 .list-group-numbered2 {
   position: absolute;
-  background-image: url(../../images/2.png);
+  background-image: url(../images/2.png);
   width: 69px;
   height: 67px;
   top: 50%;
@@ -1370,7 +1370,7 @@ p {
 
 .list-group-numbered3 {
   position: absolute;
-  background-image: url(../../images/3.png);
+  background-image: url(../images/3.png);
   width: 69px;
   height: 67px;
   top: 50%;
@@ -1381,7 +1381,7 @@ p {
 
 .list-group-numbered4 {
   position: absolute;
-  background-image: url(../../images/4.png);
+  background-image: url(../images/4.png);
   width: 69px;
   height: 67px;
   top: 50%;
@@ -1392,7 +1392,7 @@ p {
 
 .list-group-numbered5 {
   position: absolute;
-  background-image: url(../../images/5.png);
+  background-image: url(../images/5.png);
   width: 69px;
   height: 67px;
   top: 50%;
@@ -1696,7 +1696,7 @@ p {
 
 .author-circle {
   position: absolute;
-  background-image: url(../../images/author-circle.png);
+  background-image: url(../images/author-circle.png);
   width: 157px;
   height: 154px;
   top: -65px;
@@ -1773,7 +1773,7 @@ p {
 
 .auhor-solution__png {
   position: absolute;
-  background-image: url(../../images/author-arrow.png);
+  background-image: url(../images/author-arrow.png);
   width: 15px;
   height: 20px;
   top: 1px;
@@ -1781,8 +1781,8 @@ p {
 }
 
 .appeal {
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(66, 25, 109, 0.8)), to(rgba(66, 25, 109, 0.8))), url(../../images/bg-appeal.jpg);
-  background-image: linear-gradient(to right, rgba(66, 25, 109, 0.8), rgba(66, 25, 109, 0.8)), url(../../images/bg-appeal.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(66, 25, 109, 0.8)), to(rgba(66, 25, 109, 0.8))), url(../images/bg-appeal.jpg);
+  background-image: linear-gradient(to right, rgba(66, 25, 109, 0.8), rgba(66, 25, 109, 0.8)), url(../images/bg-appeal.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1866,19 +1866,19 @@ p {
 }
 
 .appeal-list__png--reg {
-  background-image: url(../../images/appeal-reg.png);
+  background-image: url(../images/appeal-reg.png);
   width: 59px;
   height: 50px;
 }
 
 .appeal-list__png--check {
-  background-image: url(../../images/appeal-check.png);
+  background-image: url(../images/appeal-check.png);
   width: 58px;
   height: 54px;
 }
 
 .appeal-list__png--time {
-  background-image: url(../../images/appeal-time.png);
+  background-image: url(../images/appeal-time.png);
   width: 54px;
   height: 54px;
 }
@@ -2093,7 +2093,7 @@ p {
 
 .footer-png {
   position: absolute;
-  background-image: url(../../images/footer-logo.png);
+  background-image: url(../images/footer-logo.png);
   width: 41px;
   height: 42px;
   top: 0;

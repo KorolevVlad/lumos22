@@ -4,7 +4,7 @@
       rgba(66, 25, 109, 0.8),
       rgba(66, 25, 109, 0.8)
     ),
-    url(../../images/bg-mobile.jpg);
+    url(../images/bg-mobile.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -17,7 +17,7 @@
         rgba(66, 25, 109, 0.8),
         rgba(66, 25, 109, 0.8)
       ),
-      url(../../images/bg-tablet.jpg);
+      url(../images/bg-tablet.jpg);
   }
   @media screen and(min-width: $tablet) {
     background-image: linear-gradient(
@@ -25,7 +25,7 @@
         rgba(50, 11, 97, 0.8),
         rgba(50, 11, 97, 0.8)
       ),
-      url(../../images/bg-desk.jpg);
+      url(../images/bg-desk.jpg);
   }
 }
 
@@ -82,7 +82,7 @@
 
 .container-header__mouse {
   position: absolute;
-  background-image: url(../../images/mouse.png);
+  background-image: url(../images/mouse.png);
   width: 50px;
   height: 50px;
   bottom: -25px;
@@ -242,7 +242,7 @@
 }
 
 .container-header__star {
-  background-image: url(../../images/star.png);
+  background-image: url(../images/star.png);
   position: absolute;
   width: 44px;
   height: 44px;
@@ -256,7 +256,7 @@
 .container-header__circle {
   @media screen and(min-width: $tablet) {
     position: absolute;
-    background-image: url(../../images/circle.png);
+    background-image: url(../images/circle.png);
     width: 135px;
     height: 135px;
     bottom: -118px;
@@ -273,7 +273,7 @@
 .container-header__circle--second {
   @media screen and(min-width: $desktop) {
     position: absolute;
-    background-image: url(../../images/circle2.png);
+    background-image: url(../images/circle2.png);
     width: 157px;
     height: 171px;
     bottom: -330px;
@@ -294,12 +294,12 @@
   }
 }
 .container-header__png {
-  background-image: url(../../images/calendar.png);
+  background-image: url(../images/calendar.png);
   width: 32px;
   height: 36px;
 
   @media screen and(min-width: $tablet) {
-    background-image: url(../../images/calendar-tablet.png);
+    background-image: url(../images/calendar-tablet.png);
     width: 27px;
     height: 30px;
     margin-right: 18px;
@@ -487,7 +487,7 @@
 }
 
 .header-form__feedback--png {
-  background-image: url(../../images/feedback.png);
+  background-image: url(../images/feedback.png);
   width: 58px;
   height: 54px;
 }

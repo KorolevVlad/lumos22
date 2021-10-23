@@ -4,7 +4,7 @@
       rgba(66, 25, 109, 0.8),
       rgba(66, 25, 109, 0.8)
     ),
-    url(../../images/bg-appeal.jpg);
+    url(../images/bg-appeal.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -80,19 +80,19 @@
   left: 0px;
 
   &--reg {
-    background-image: url(../../images/appeal-reg.png);
+    background-image: url(../images/appeal-reg.png);
     width: 59px;
     height: 50px;
   }
 
   &--check {
-    background-image: url(../../images/appeal-check.png);
+    background-image: url(../images/appeal-check.png);
     width: 58px;
     height: 54px;
   }
 
   &--time {
-    background-image: url(../../images/appeal-time.png);
+    background-image: url(../images/appeal-time.png);
     width: 54px;
     height: 54px;
   }
